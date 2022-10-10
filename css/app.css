@@ -58,3 +58,24 @@ h2 {
 #barcelona {
     background-color: #800000;
 }
+
+#kinshasa {
+    background-color: #001352;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.left{
+    width: 300px;
+    height: 300px;
+}
+
+.right{
+    height: 300px;
+    width: calc(100% - 500px);
+}
